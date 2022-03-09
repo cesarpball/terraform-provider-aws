@@ -87,3 +87,7 @@ require (
 	google.golang.org/grpc v1.32.0 // indirect
 	google.golang.org/protobuf v1.25.0 // indirect
 )
+
+replace github.com/hashicorp/aws-sdk-go-base/v2 => github.com/hashicorp/aws-sdk-go-base/v2 v2.0.0-beta.12.0.20220309022512-067aae68fe8a
+
+replace github.com/hashicorp/aws-sdk-go-base/v2/awsv1shim/v2 => github.com/hashicorp/aws-sdk-go-base/v2/awsv1shim/v2 v2.0.0-beta.13.0.20220309022512-067aae68fe8a
